@@ -1,0 +1,19 @@
+{
+  "compilerOptions": {
+    "checkJs": false,
+    "module": "commonjs",
+    "target": "es6",
+    "jsx": "react"
+  },
+  "include": ["./src/**/*.js"],
+  "exclude": [
+    "node_modules",
+    "**/node_modules/*",
+    "dist",
+    "coverage",
+    "demo",
+    "static",
+    "public",
+    ".cache"
+  ]
+}
